@@ -40,5 +40,7 @@ SELECT * FROM tb_colaboradores WHERE salario > 2000.00;
 SELECT * FROM tb_colaboradores WHERE salario < 2000.00;
 
 UPDATE tb_colaboradores SET salario = 1800.00 WHERE id = 5;
+USE db_rh;
+UPDATE tb_colaboradores SET departamento = "Tecnologia" WHERE id = 1;
 
 
